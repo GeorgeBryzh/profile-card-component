@@ -3,23 +3,33 @@ body{
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    /* overflow: hidden; */
+    /* git branch -M main */
 }
-.top-circle{
+/* .top-circle{
  position: absolute;
+ z-index: 0;
  top: 0px;
  left: 0px;
-}
-.bottom-circle {
+} */
+/* .bottom-circle {
  position: absolute;
  bottom: 0px;
  right: 0px; 
+} */
+
+.container{
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    border: solid;
 }
 
 .user-card{
     margin: 0px auto;
     border: solid;
     width: 350px;
+    /* position: absolute; */
+    top: 0px
      
 }  
 /* .user-card-top{
