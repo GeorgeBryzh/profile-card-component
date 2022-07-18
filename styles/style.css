@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
-body{
+
+body {
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
     /* git branch -M main */
 }
+
 /* .top-circle{
  position: absolute;
  z-index: 0;
@@ -17,21 +19,45 @@ body{
  right: 0px; 
 } */
 
-.container{
+.container {
     max-height: 100%;
     max-width: 100%;
     margin: 0px auto;
     border: solid;
 }
 
-.user-card{
+.user-card {
     margin: 0px auto;
     border: solid;
     width: 350px;
-    /* position: absolute; */
+    position: relative;
     top: 0px
-     
-}  
+}
+
+.user-avatar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    margin-top: 0;
+    border: solid
+
+}
+
+.user-main-info{
+    position: relative;
+    margin-top:0px;
+    border: solid;
+}
+
+.user-avatar img {
+    border-radius: 50%;
+    border: solid;
+    display: block;
+
+
+}
+
 /* .user-card-top{
    
 
