@@ -19,40 +19,98 @@ body {
  right: 0px; 
 } */
 
-.container {
-    max-height: 100%;
-    max-width: 100%;
-    margin: 0px auto;
-    border: solid;
-}
+
 
 .user-card {
-    margin: 0px auto;
-    border: solid;
+    
+    /* border: solid; */
+    box-sizing: border-box;
     width: 350px;
     position: relative;
-    top: 0px
+    top: 0px;
+    background-color: white;
+    color: hsl(229, 23%, 23%);
+    border-radius: 20px;
+}
+
+.card-wallpaper{
+   
+  box-sizing: border-box;
+   box-sizing: border-box;
+
+}
+
+.user-info {
+    position: relative;
+
 }
 
 .user-avatar {
     display: flex;
     justify-content: center;
-    position: relative;
-    top: -50px;
-    margin-top: 0;
-    border: solid
+    position: absolute;
+    top: 0px;
+    margin-top: -8.3rem;
+    width: 100%
+}
+
+.user-main-info {
+
+    margin-top: 4.8rem;
+    text-align: center;
+    /* border: solid; */
+    width: 100%;
+    padding: 0px;
+    line-height: 1;
 
 }
 
-.user-main-info{
-    position: relative;
-    margin-top:0px;
-    border: solid;
+.user-firstname,
+.user-surname {
+    font-weight: 700;
+
+}
+
+.user-age {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.user-city {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0.7rem;
+    color: hsl(0, 0%, 59%);
+    border-bottom: 1.3px solid hsl(0, 0%, 59%, 0.3);
+    padding-bottom: 1.6rem;
+}
+
+.user-activity {
+    display: flex;
+    padding: 1.7rem 3.4rem;
+    justify-content:space-between;
+}
+
+.activity-item{
+    text-align: center;
+}
+.data-num{
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+  
+}
+
+.data-name {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    
 }
 
 .user-avatar img {
     border-radius: 50%;
-    border: solid;
+    border: solid 5px;
+    border-color: white;
     display: block;
 
 
