@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+html {
+    height: 100%;
+}
 
 body {
-    background-color: hsl(185, 75%, 39%);
+    
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
+    height: 100%;
+    display: flex;
+    background-color: hsl(185, 75%, 39%);
     /* git branch -M main */
 }
 
@@ -19,8 +25,43 @@ body {
  right: 0px; 
 } */
 
+.back-container{
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: solid;
+    height: 99.18%;
+    width: 99.65%;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.top-circle {
+  
+  position: absolute;
+  top: -489px;
+  left: 40px;
+  
+  border: solid red;
 
-
+}
+.bottom-circle {
+  position: absolute;
+  top: -489px;
+  /* margin-left: 30px; */
+}
+.container{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    
+   
+    
+}
 .user-card {
     
     /* border: solid; */
@@ -31,13 +72,14 @@ body {
     background-color: white;
     color: hsl(229, 23%, 23%);
     border-radius: 20px;
+
 }
 
 .card-wallpaper{
    
-  box-sizing: border-box;
-   box-sizing: border-box;
-
+   border-radius: 20px;
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
 }
 
 .user-info {
